@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/TranLeAnhDuy_SE194860/ASGM2/driver/sms_sensor_driver.ko := arm-linux-gnueabihf-ld -r -EL --build-id=sha1  -T scripts/module.lds -o /home/ubuntu/TranLeAnhDuy_SE194860/ASGM2/driver/sms_sensor_driver.ko /home/ubuntu/TranLeAnhDuy_SE194860/ASGM2/driver/sms_sensor_driver.o /home/ubuntu/TranLeAnhDuy_SE194860/ASGM2/driver/sms_sensor_driver.mod.o;  true

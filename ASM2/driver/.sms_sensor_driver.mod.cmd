@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/TranLeAnhDuy_SE194860/ASGM2/driver/sms_sensor_driver.mod := { echo  /home/ubuntu/TranLeAnhDuy_SE194860/ASGM2/driver/sms_sensor_driver.o;  echo; } > /home/ubuntu/TranLeAnhDuy_SE194860/ASGM2/driver/sms_sensor_driver.mod

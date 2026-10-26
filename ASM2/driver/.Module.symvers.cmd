@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/TranLeAnhDuy_SE194860/ASGM2/driver/Module.symvers := sed 's/\.ko$$/\.o/' /home/ubuntu/TranLeAnhDuy_SE194860/ASGM2/driver/modules.order | scripts/mod/modpost    -o /home/ubuntu/TranLeAnhDuy_SE194860/ASGM2/driver/Module.symvers -e -i Module.symvers   -T -
