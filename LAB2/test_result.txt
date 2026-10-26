@@ -1,0 +1,20 @@
+Embedded Linux Lab 2 - Test Result
+
+Driver:
+- sms_sensor_driver.ko loaded successfully.
+- /dev/sms_sensor and /proc/sms_stats registered.
+
+Application:
+- Command: /sms_app_arm -v -i 500 -d 10
+- Sampling interval: 500 ms
+- Duration: 10 seconds
+- Multiple sensor samples received successfully.
+- No repeated sensor returned EOF errors.
+
+Alert summary:
+TEMP_HIGH=2
+HUMID_HIGH=0
+TEMP_SPIKE=6
+
+Application exited with SHUTDOWN.
+QEMU powered off after the test.

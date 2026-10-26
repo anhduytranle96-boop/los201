@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/TranLeAnhDuy_SE194860/task1_ioctl/asgn1_driver.mod := { echo  /home/ubuntu/TranLeAnhDuy_SE194860/task1_ioctl/asgn1_driver.o;  echo; } > /home/ubuntu/TranLeAnhDuy_SE194860/task1_ioctl/asgn1_driver.mod

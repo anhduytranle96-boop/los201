@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/TranLeAnhDuy_SE194860/ASGM2/driver/modules.order := {   echo /home/ubuntu/TranLeAnhDuy_SE194860/ASGM2/driver/sms_sensor_driver.ko; :; } | awk '!x[$$0]++' - > /home/ubuntu/TranLeAnhDuy_SE194860/ASGM2/driver/modules.order

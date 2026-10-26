@@ -1,0 +1,4 @@
+make -C /home/ubuntu/restore_lab1/embedded_lab1/kernel/linux-5.15 M=/home/ubuntu/TranLeAnhDuy_SE194860/ASGM2/driver ARCH=arm \
+	CROSS_COMPILE=arm-linux-gnueabihf- KCFLAGS="-march=armv7-a" modules
+make[1]: Entering directory '/home/ubuntu/restore_lab1/embedded_lab1/kernel/linux-5.15'
+make[1]: Leaving directory '/home/ubuntu/restore_lab1/embedded_lab1/kernel/linux-5.15'

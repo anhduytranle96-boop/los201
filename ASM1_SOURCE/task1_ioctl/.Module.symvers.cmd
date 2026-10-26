@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/TranLeAnhDuy_SE194860/task1_ioctl/Module.symvers := sed 's/\.ko$$/\.o/' /home/ubuntu/TranLeAnhDuy_SE194860/task1_ioctl/modules.order | scripts/mod/modpost    -o /home/ubuntu/TranLeAnhDuy_SE194860/task1_ioctl/Module.symvers -e -i Module.symvers   -T -

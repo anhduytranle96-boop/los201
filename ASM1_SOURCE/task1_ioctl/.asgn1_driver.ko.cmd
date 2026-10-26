@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/TranLeAnhDuy_SE194860/task1_ioctl/asgn1_driver.ko := arm-linux-gnueabihf-ld -r -EL --build-id=sha1  -T scripts/module.lds -o /home/ubuntu/TranLeAnhDuy_SE194860/task1_ioctl/asgn1_driver.ko /home/ubuntu/TranLeAnhDuy_SE194860/task1_ioctl/asgn1_driver.o /home/ubuntu/TranLeAnhDuy_SE194860/task1_ioctl/asgn1_driver.mod.o;  true
