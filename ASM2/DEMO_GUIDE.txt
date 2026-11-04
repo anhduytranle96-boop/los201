@@ -1,0 +1,36 @@
+ASM2 - DEMO GUIDE
+
+1. BOOT QEMU (run on Ubuntu host):
+qemu-system-arm -M vexpress-a9 -m 512M -kernel /mnt/data/ASM2_rebuild/zImage -dtb /mnt/data/ASM2_rebuild/vexpress-v2p-ca9.dtb -initrd /mnt/data/ASM2_rebuild/initramfs-app.cpio.gz -append "console=ttyAMA0,115200 rdinit=/init" -nographic
+
+2. LOAD DRIVER (inside QEMU):
+insmod /lib/modules/5.15.0/sms_sensor.ko
+
+3. REQUIREMENT 1 - TOTAL BYTES READ:
+cat /proc/sms_stats
+dd if=/dev/sms_sensor bs=64 count=1
+cat /proc/sms_stats
+Explain: total_bytes_read counts bytes successfully copied to userspace.
+
+4. REQUIREMENT 2 - MIN/MAX TEMPERATURE:
+cat /proc/sms_stats
+for i in $(seq 1 20); do dd if=/dev/sms_sensor bs=64 count=1 2>/dev/null; sleep 0.2; done
+cat /proc/sms_stats
+Explain: min_temperature and max_temperature track the minimum and maximum temperature samples since driver load.
+
+5. REQUIREMENT 3 - SUMMARY AND CTRL+C:
+sms_app -d 5
+sms_app -d 0
+Press Ctrl+C after a few seconds.
+Explain: producer and consumer threads stop gracefully; summary reports produced, consumed, buffer size and overflow.
+
+Expected result:
+produced = consumed
+size = 0
+overflow = 0
+
+6. EXIT QEMU:
+Press Ctrl+A, release, then X.
+
+BACKUP DIRECTORY:
+/mnt/data/ASM2_rebuild/
