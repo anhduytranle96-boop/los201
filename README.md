@@ -18,7 +18,7 @@ Repository cá nhân tổng hợp toàn bộ bài thực hành Lab và đồ án
   * Đo kiểm Real-Time Latency (`cyclictest`) & trực quan hóa histogram bằng `gnuplot`.
 - `ASM1_SOURCE/` & `ASM1.tar.gz` — Assignment 1: Mở rộng Character Driver hỗ trợ các lệnh `ioctl`, phát triển `miscdevice` Counter Driver điều khiển từ User-space.
 - `ASM2/` — Assignment 2 (Capstone Project): Hệ thống Sensor Monitoring tích hợp Linux Kernel Driver, xử lý đa luồng (Multi-threading), giao tiếp tiến trình (IPC) và đáp ứng thời gian thực (Real-Time processing).
-- `MSSV_TranLeAnhDuy_Lab03.tar.gz` — Gói lưu trữ hoàn chỉnh kết quả và báo cáo LAB-03.
+
 
 ---
 
