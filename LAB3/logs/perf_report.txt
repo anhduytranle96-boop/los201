@@ -1,0 +1,987 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 77  of event 'cpu_core/cycles/P'
+# Event count (approx.): 78501626
+#
+# Children      Self  Command      Shared Object         Symbol                            
+# ........  ........  ...........  ....................  ..................................
+#
+    61.64%    58.74%  perf_target  libm.so.6             [.] __ieee754_log_fma
+            |          
+            |--2.90%--__ieee754_log_fma
+            |          
+            |--1.46%--0x40ec408000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.46%--0x40cb138000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.46%--0x40f695b000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.46%--0x40f14ac000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.46%--0x40da088000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.46%--0x40e325a000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.46%--0x40ee0ca000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.46%--0x40f467d000000000
+            |          heavy_compute
+            |          
+            |--1.46%--0x40e930e000000000
+            |          heavy_compute
+            |          
+            |--1.46%--0x40d14ec000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.46%--0x40dbc14000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.45%--0x40ed05c000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.45%--0x40d6744000000000
+            |          heavy_compute
+            |          
+            |--1.45%--0x40af860000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.45%--0x40e24a8000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.45%--0x40f6be6000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.44%--0x40f0e96000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.43%--0x40e347c000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.42%--0x40d928c000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.42%--0x40e9984000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.42%--0x40f7aee000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.41%--0x40f2df3000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.41%--0x40c9f70000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.41%--0x409f4c0000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.41%--0x40f338c000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.41%--0x40e4c56000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.40%--0x40ec84e000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.40%--0x40b06e0000000000
+            |          __ieee754_log_fma
+            |          top16 (inlined)
+            |          
+            |--1.40%--0x40dc710000000000
+            |          heavy_compute
+            |          
+            |--1.40%--0x40f374e000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.40%--0x40decd0000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.39%--0x40f6990000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.39%--0x40d78e4000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.39%--0x40f068e000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.39%--0x40db174000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.36%--0x40f3850000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.34%--0x40bbb10000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.28%--0x40f0513000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.26%--0x40f8437000000000
+            |          __ieee754_log_fma
+            |          
+            |--1.22%--0x40df45c000000000
+            |          __ieee754_log_fma
+            |          top16 (inlined)
+            |          
+            |--1.19%--0x40f0486000000000
+            |          heavy_compute
+            |          
+             --1.05%--0x40e770c000000000
+                       heavy_compute
+
+    31.39%    23.38%  perf_target  perf_target           [.] heavy_compute
+            |          
+            |--8.01%--heavy_compute
+            |          
+            |--1.46%--0x40e7fb0000000000
+            |          heavy_compute
+            |          
+            |--1.46%--0x40b42d0000000000
+            |          heavy_compute
+            |          
+            |--1.46%--0x40f217c000000000
+            |          log@plt
+            |          
+            |--1.46%--0x40f7767000000000
+            |          heavy_compute
+            |          
+            |--1.46%--0x4080180000000000
+            |          log@plt
+            |          
+            |--1.45%--0x40f09e0000000000
+            |          heavy_compute
+            |          
+            |--1.45%--0x40cdcf0000000000
+            |          heavy_compute
+            |          
+            |--1.44%--0x40d0844000000000
+            |          heavy_compute
+            |          
+            |--1.42%--0x40f6f51000000000
+            |          log@plt
+            |          
+            |--1.42%--0x40f0e91000000000
+            |          heavy_compute
+            |          
+            |--1.41%--0x40f5052000000000
+            |          heavy_compute
+            |          
+            |--1.40%--0x40ea89c000000000
+            |          log@plt
+            |          
+            |--1.39%--0x40b7e10000000000
+            |          heavy_compute
+            |          
+            |--1.38%--0x40ea192000000000
+            |          heavy_compute
+            |          
+            |--1.31%--0x40e1050000000000
+            |          log@plt
+            |          
+            |--1.11%--0x40b3380000000000
+            |          log@plt
+            |          
+             --0.92%--0x40e39ec000000000
+                       heavy_compute
+
+     9.61%     9.61%  perf_target  libm.so.6             [.] log@@GLIBC_2.29
+            |          
+            |--1.46%--0x40f3586000000000
+            |          __log_finite@GLIBC_2.15@plt
+            |          
+            |--1.46%--0x40e199a000000000
+            |          __log_finite@GLIBC_2.15@plt
+            |          
+            |--1.46%--0x40f0675000000000
+            |          __log (inlined)
+            |          
+            |--1.42%--0x40d20f8000000000
+            |          __log (inlined)
+            |          
+            |--1.41%--0x40e48dc000000000
+            |          __log (inlined)
+            |          
+            |--1.41%--0x40ebece000000000
+            |          __log_finite@GLIBC_2.15@plt
+            |          
+             --0.99%--0x40f68d1000000000
+                       __log_finite@GLIBC_2.15@plt
+
+     9.59%     1.44%  perf_target  perf_target           [.] log@plt
+            |          
+            |--8.15%--log@plt
+            |          
+             --1.44%--0x40ce358000000000
+                       __log (inlined)
+
+     8.22%     2.90%  perf_target  libm.so.6             [.] __log_finite@GLIBC_2.15@plt
+            |          
+            |--5.32%--__log_finite@GLIBC_2.15@plt
+            |          
+            |--1.45%--0x40f604e000000000
+            |          __ieee754_log_fma
+            |          
+             --1.45%--0x40e6052000000000
+                       __ieee754_log_fma
+
+     5.72%     0.00%  perf_target  libm.so.6             [.] __log (inlined)
+            |
+            ---__log (inlined)
+
+     2.62%     0.00%  perf_target  libm.so.6             [.] top16 (inlined)
+            |
+            ---top16 (inlined)
+
+     2.26%     0.00%  perf_target  [unknown]             [k] 0x0000000300000002
+            |
+            ---0x300000002
+               main
+               |          
+               |--1.51%--asm_exc_page_fault
+               |          exc_page_fault
+               |          do_user_addr_fault
+               |          handle_mm_fault
+               |          __handle_mm_fault
+               |          handle_pte_fault
+               |          do_anonymous_page
+               |          |          
+               |          |--0.84%--pte_offset_map_lock
+               |          |          __pte_offset_map
+               |          |          
+               |           --0.67%--alloc_anon_folio
+               |                     vma_alloc_folio_noprof
+               |                     alloc_pages_mpol
+               |                     __alloc_frozen_pages_noprof
+               |                     get_page_from_freelist
+               |                     rmqueue.isra.0
+               |                     __rmqueue_pcplist
+               |          
+                --0.75%--sync_regs
+
+     2.26%     0.00%  perf_target  perf_target           [.] main
+            |
+            ---main
+               |          
+               |--1.51%--asm_exc_page_fault
+               |          exc_page_fault
+               |          do_user_addr_fault
+               |          handle_mm_fault
+               |          __handle_mm_fault
+               |          handle_pte_fault
+               |          do_anonymous_page
+               |          |          
+               |          |--0.84%--pte_offset_map_lock
+               |          |          __pte_offset_map
+               |          |          
+               |           --0.67%--alloc_anon_folio
+               |                     vma_alloc_folio_noprof
+               |                     alloc_pages_mpol
+               |                     __alloc_frozen_pages_noprof
+               |                     get_page_from_freelist
+               |                     rmqueue.isra.0
+               |                     __rmqueue_pcplist
+               |          
+                --0.75%--sync_regs
+
+     1.83%     0.00%  perf_target  [kernel.kallsyms]     [.] asm_exc_page_fault
+            |
+            ---asm_exc_page_fault
+               |          
+                --1.51%--exc_page_fault
+                          do_user_addr_fault
+                          handle_mm_fault
+                          __handle_mm_fault
+                          handle_pte_fault
+                          do_anonymous_page
+                          |          
+                          |--0.84%--pte_offset_map_lock
+                          |          __pte_offset_map
+                          |          
+                           --0.67%--alloc_anon_folio
+                                     vma_alloc_folio_noprof
+                                     alloc_pages_mpol
+                                     __alloc_frozen_pages_noprof
+                                     get_page_from_freelist
+                                     rmqueue.isra.0
+                                     __rmqueue_pcplist
+
+     1.51%     0.00%  perf_target  [kernel.kallsyms]     [.] exc_page_fault
+            |
+            ---exc_page_fault
+               do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               do_anonymous_page
+               |          
+               |--0.84%--pte_offset_map_lock
+               |          __pte_offset_map
+               |          
+                --0.67%--alloc_anon_folio
+                          vma_alloc_folio_noprof
+                          alloc_pages_mpol
+                          __alloc_frozen_pages_noprof
+                          get_page_from_freelist
+                          rmqueue.isra.0
+                          __rmqueue_pcplist
+
+     1.51%     0.00%  perf_target  [kernel.kallsyms]     [.] do_user_addr_fault
+            |
+            ---do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               do_anonymous_page
+               |          
+               |--0.84%--pte_offset_map_lock
+               |          __pte_offset_map
+               |          
+                --0.67%--alloc_anon_folio
+                          vma_alloc_folio_noprof
+                          alloc_pages_mpol
+                          __alloc_frozen_pages_noprof
+                          get_page_from_freelist
+                          rmqueue.isra.0
+                          __rmqueue_pcplist
+
+     1.51%     0.00%  perf_target  [kernel.kallsyms]     [.] handle_mm_fault
+            |
+            ---handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               do_anonymous_page
+               |          
+               |--0.84%--pte_offset_map_lock
+               |          __pte_offset_map
+               |          
+                --0.67%--alloc_anon_folio
+                          vma_alloc_folio_noprof
+                          alloc_pages_mpol
+                          __alloc_frozen_pages_noprof
+                          get_page_from_freelist
+                          rmqueue.isra.0
+                          __rmqueue_pcplist
+
+     1.51%     0.00%  perf_target  [kernel.kallsyms]     [.] __handle_mm_fault
+            |
+            ---__handle_mm_fault
+               handle_pte_fault
+               do_anonymous_page
+               |          
+               |--0.84%--pte_offset_map_lock
+               |          __pte_offset_map
+               |          
+                --0.67%--alloc_anon_folio
+                          vma_alloc_folio_noprof
+                          alloc_pages_mpol
+                          __alloc_frozen_pages_noprof
+                          get_page_from_freelist
+                          rmqueue.isra.0
+                          __rmqueue_pcplist
+
+     1.51%     0.00%  perf_target  [kernel.kallsyms]     [.] handle_pte_fault
+            |
+            ---handle_pte_fault
+               do_anonymous_page
+               |          
+               |--0.84%--pte_offset_map_lock
+               |          __pte_offset_map
+               |          
+                --0.67%--alloc_anon_folio
+                          vma_alloc_folio_noprof
+                          alloc_pages_mpol
+                          __alloc_frozen_pages_noprof
+                          get_page_from_freelist
+                          rmqueue.isra.0
+                          __rmqueue_pcplist
+
+     1.51%     0.00%  perf_target  [kernel.kallsyms]     [.] do_anonymous_page
+            |
+            ---do_anonymous_page
+               |          
+               |--0.84%--pte_offset_map_lock
+               |          __pte_offset_map
+               |          
+                --0.67%--alloc_anon_folio
+                          vma_alloc_folio_noprof
+                          alloc_pages_mpol
+                          __alloc_frozen_pages_noprof
+                          get_page_from_freelist
+                          rmqueue.isra.0
+                          __rmqueue_pcplist
+
+     1.46%     0.00%  perf_target  [unknown]             [.] 0x40f3586000000000
+            |
+            ---0x40f3586000000000
+               __log_finite@GLIBC_2.15@plt
+
+     1.46%     0.00%  perf_target  [unknown]             [.] 0x40ec408000000000
+            |
+            ---0x40ec408000000000
+               __ieee754_log_fma
+
+     1.46%     0.00%  perf_target  [unknown]             [.] 0x40e199a000000000
+            |
+            ---0x40e199a000000000
+               __log_finite@GLIBC_2.15@plt
+
+     1.46%     0.00%  perf_target  [unknown]             [.] 0x40cb138000000000
+            |
+            ---0x40cb138000000000
+               __ieee754_log_fma
+
+     1.46%     0.00%  perf_target  [unknown]             [.] 0x40f695b000000000
+            |
+            ---0x40f695b000000000
+               __ieee754_log_fma
+
+     1.46%     0.00%  perf_target  [unknown]             [.] 0x40f14ac000000000
+            |
+            ---0x40f14ac000000000
+               __ieee754_log_fma
+
+     1.46%     0.00%  perf_target  [unknown]             [.] 0x40e7fb0000000000
+            |
+            ---0x40e7fb0000000000
+               heavy_compute
+
+     1.46%     0.00%  perf_target  [unknown]             [.] 0x40da088000000000
+            |
+            ---0x40da088000000000
+               __ieee754_log_fma
+
+     1.46%     0.00%  perf_target  [unknown]             [.] 0x40e325a000000000
+            |
+            ---0x40e325a000000000
+               __ieee754_log_fma
+
+     1.46%     0.00%  perf_target  [unknown]             [.] 0x40ee0ca000000000
+            |
+            ---0x40ee0ca000000000
+               __ieee754_log_fma
+
+     1.46%     0.00%  perf_target  [unknown]             [.] 0x40f467d000000000
+            |
+            ---0x40f467d000000000
+               heavy_compute
+
+     1.46%     0.00%  perf_target  [unknown]             [.] 0x40b42d0000000000
+            |
+            ---0x40b42d0000000000
+               heavy_compute
+
+     1.46%     0.00%  perf_target  [unknown]             [.] 0x40e930e000000000
+            |
+            ---0x40e930e000000000
+               heavy_compute
+
+     1.46%     0.00%  perf_target  [unknown]             [.] 0x40f217c000000000
+            |
+            ---0x40f217c000000000
+               log@plt
+
+     1.46%     0.00%  perf_target  [unknown]             [.] 0x40f7767000000000
+            |
+            ---0x40f7767000000000
+               heavy_compute
+
+     1.46%     0.00%  perf_target  [unknown]             [.] 0x40d14ec000000000
+            |
+            ---0x40d14ec000000000
+               __ieee754_log_fma
+
+     1.46%     0.00%  perf_target  [unknown]             [.] 0x40f0675000000000
+            |
+            ---0x40f0675000000000
+               __log (inlined)
+
+     1.46%     0.00%  perf_target  [unknown]             [.] 0x4080180000000000
+            |
+            ---0x4080180000000000
+               log@plt
+
+     1.46%     0.00%  perf_target  [unknown]             [.] 0x40dbc14000000000
+            |
+            ---0x40dbc14000000000
+               __ieee754_log_fma
+
+     1.45%     0.00%  perf_target  [unknown]             [.] 0x40ed05c000000000
+            |
+            ---0x40ed05c000000000
+               __ieee754_log_fma
+
+     1.45%     0.00%  perf_target  [unknown]             [.] 0x40d6744000000000
+            |
+            ---0x40d6744000000000
+               heavy_compute
+
+     1.45%     0.00%  perf_target  [unknown]             [.] 0x40f604e000000000
+            |
+            ---0x40f604e000000000
+               __ieee754_log_fma
+
+     1.45%     0.00%  perf_target  [unknown]             [.] 0x40af860000000000
+            |
+            ---0x40af860000000000
+               __ieee754_log_fma
+
+     1.45%     0.00%  perf_target  [unknown]             [.] 0x40e24a8000000000
+            |
+            ---0x40e24a8000000000
+               __ieee754_log_fma
+
+     1.45%     0.00%  perf_target  [unknown]             [.] 0x40f09e0000000000
+            |
+            ---0x40f09e0000000000
+               heavy_compute
+
+     1.45%     0.00%  perf_target  [unknown]             [.] 0x40e6052000000000
+            |
+            ---0x40e6052000000000
+               __ieee754_log_fma
+
+     1.45%     0.00%  perf_target  [unknown]             [.] 0x40cdcf0000000000
+            |
+            ---0x40cdcf0000000000
+               heavy_compute
+
+     1.45%     0.00%  perf_target  [unknown]             [.] 0x40f6be6000000000
+            |
+            ---0x40f6be6000000000
+               __ieee754_log_fma
+
+     1.44%     0.00%  perf_target  [unknown]             [.] 0x40d0844000000000
+            |
+            ---0x40d0844000000000
+               heavy_compute
+
+     1.44%     0.00%  perf_target  [unknown]             [.] 0x40f0e96000000000
+            |
+            ---0x40f0e96000000000
+               __ieee754_log_fma
+
+     1.44%     0.00%  perf_target  [unknown]             [.] 0x40ce358000000000
+            |
+            ---0x40ce358000000000
+               __log (inlined)
+
+     1.43%     0.00%  perf_target  [unknown]             [.] 0x40e347c000000000
+            |
+            ---0x40e347c000000000
+               __ieee754_log_fma
+
+     1.42%     0.00%  perf_target  [unknown]             [.] 0x40f6f51000000000
+            |
+            ---0x40f6f51000000000
+               log@plt
+
+     1.42%     0.00%  perf_target  [unknown]             [.] 0x40d928c000000000
+            |
+            ---0x40d928c000000000
+               __ieee754_log_fma
+
+     1.42%     0.00%  perf_target  [unknown]             [.] 0x40e9984000000000
+            |
+            ---0x40e9984000000000
+               __ieee754_log_fma
+
+     1.42%     0.00%  perf_target  [unknown]             [.] 0x40f7aee000000000
+            |
+            ---0x40f7aee000000000
+               __ieee754_log_fma
+
+     1.42%     0.00%  perf_target  [unknown]             [.] 0x40d20f8000000000
+            |
+            ---0x40d20f8000000000
+               __log (inlined)
+
+     1.42%     0.00%  perf_target  [unknown]             [.] 0x40f0e91000000000
+            |
+            ---0x40f0e91000000000
+               heavy_compute
+
+     1.41%     0.00%  perf_target  [unknown]             [.] 0x40f2df3000000000
+            |
+            ---0x40f2df3000000000
+               __ieee754_log_fma
+
+     1.41%     0.00%  perf_target  [unknown]             [.] 0x40e48dc000000000
+            |
+            ---0x40e48dc000000000
+               __log (inlined)
+
+     1.41%     0.00%  perf_target  [unknown]             [.] 0x40c9f70000000000
+            |
+            ---0x40c9f70000000000
+               __ieee754_log_fma
+
+     1.41%     0.00%  perf_target  [unknown]             [.] 0x40ebece000000000
+            |
+            ---0x40ebece000000000
+               __log_finite@GLIBC_2.15@plt
+
+     1.41%     0.00%  perf_target  [unknown]             [.] 0x409f4c0000000000
+            |
+            ---0x409f4c0000000000
+               __ieee754_log_fma
+
+     1.41%     0.00%  perf_target  [unknown]             [.] 0x40f5052000000000
+            |
+            ---0x40f5052000000000
+               heavy_compute
+
+     1.41%     0.00%  perf_target  [unknown]             [.] 0x40f338c000000000
+            |
+            ---0x40f338c000000000
+               __ieee754_log_fma
+
+     1.41%     0.00%  perf_target  [unknown]             [.] 0x40e4c56000000000
+            |
+            ---0x40e4c56000000000
+               __ieee754_log_fma
+
+     1.40%     0.00%  perf_target  [unknown]             [.] 0x40ec84e000000000
+            |
+            ---0x40ec84e000000000
+               __ieee754_log_fma
+
+     1.40%     0.00%  perf_target  [unknown]             [.] 0x40b06e0000000000
+            |
+            ---0x40b06e0000000000
+               __ieee754_log_fma
+               top16 (inlined)
+
+     1.40%     0.00%  perf_target  [unknown]             [.] 0x40dc710000000000
+            |
+            ---0x40dc710000000000
+               heavy_compute
+
+     1.40%     0.00%  perf_target  [unknown]             [.] 0x40f374e000000000
+            |
+            ---0x40f374e000000000
+               __ieee754_log_fma
+
+     1.40%     0.00%  perf_target  [unknown]             [.] 0x40ea89c000000000
+            |
+            ---0x40ea89c000000000
+               log@plt
+
+     1.40%     0.00%  perf_target  [unknown]             [.] 0x40decd0000000000
+            |
+            ---0x40decd0000000000
+               __ieee754_log_fma
+
+     1.39%     0.00%  perf_target  [unknown]             [.] 0x40f6990000000000
+            |
+            ---0x40f6990000000000
+               __ieee754_log_fma
+
+     1.39%     0.00%  perf_target  [unknown]             [.] 0x40b7e10000000000
+            |
+            ---0x40b7e10000000000
+               heavy_compute
+
+     1.39%     0.00%  perf_target  [unknown]             [.] 0x40d78e4000000000
+            |
+            ---0x40d78e4000000000
+               __ieee754_log_fma
+
+     1.39%     0.00%  perf_target  [unknown]             [.] 0x40f068e000000000
+            |
+            ---0x40f068e000000000
+               __ieee754_log_fma
+
+     1.39%     0.00%  perf_target  [unknown]             [.] 0x40db174000000000
+            |
+            ---0x40db174000000000
+               __ieee754_log_fma
+
+     1.38%     0.00%  perf_target  [unknown]             [.] 0x40ea192000000000
+            |
+            ---0x40ea192000000000
+               heavy_compute
+
+     1.36%     0.00%  perf_target  [unknown]             [.] 0x40f3850000000000
+            |
+            ---0x40f3850000000000
+               __ieee754_log_fma
+
+     1.36%     0.00%  perf_target  ld-linux-x86-64.so.2  [.] _dl_start_user
+            |
+            ---_dl_start_user
+               _dl_start
+               _dl_start_final (inlined)
+               _dl_sysdep_start
+               |          
+                --1.04%--dl_main
+                          |          
+                           --0.58%--__ieee754_exp_ifunc (inlined)
+                                     ieee754_exp_ifunc_selector (inlined)
+
+     1.36%     0.00%  perf_target  ld-linux-x86-64.so.2  [.] _dl_start
+            |
+            ---_dl_start
+               _dl_start_final (inlined)
+               _dl_sysdep_start
+               |          
+                --1.04%--dl_main
+                          |          
+                           --0.58%--__ieee754_exp_ifunc (inlined)
+                                     ieee754_exp_ifunc_selector (inlined)
+
+     1.36%     0.00%  perf_target  ld-linux-x86-64.so.2  [.] _dl_start_final (inlined)
+            |
+            ---_dl_start_final (inlined)
+               _dl_sysdep_start
+               |          
+                --1.04%--dl_main
+                          |          
+                           --0.58%--__ieee754_exp_ifunc (inlined)
+                                     ieee754_exp_ifunc_selector (inlined)
+
+     1.36%     0.00%  perf_target  ld-linux-x86-64.so.2  [.] _dl_sysdep_start
+            |
+            ---_dl_sysdep_start
+               |          
+                --1.04%--dl_main
+                          |          
+                           --0.58%--__ieee754_exp_ifunc (inlined)
+                                     ieee754_exp_ifunc_selector (inlined)
+
+     1.36%     0.32%  perf_target  ld-linux-x86-64.so.2  [.] dl_main
+            |          
+             --1.04%--dl_main
+                       |          
+                        --0.58%--__ieee754_exp_ifunc (inlined)
+                                  ieee754_exp_ifunc_selector (inlined)
+
+     1.34%     0.00%  perf_target  [unknown]             [.] 0x40bbb10000000000
+            |
+            ---0x40bbb10000000000
+               __ieee754_log_fma
+
+     1.31%     0.00%  perf_target  [unknown]             [.] 0x40e1050000000000
+            |
+            ---0x40e1050000000000
+               log@plt
+
+     1.28%     0.00%  perf_target  [unknown]             [.] 0x40f0513000000000
+            |
+            ---0x40f0513000000000
+               __ieee754_log_fma
+
+     1.26%     0.00%  perf_target  [unknown]             [.] 0x40f8437000000000
+            |
+            ---0x40f8437000000000
+               __ieee754_log_fma
+
+     1.22%     0.00%  perf_target  [unknown]             [.] 0x40df45c000000000
+            |
+            ---0x40df45c000000000
+               __ieee754_log_fma
+               top16 (inlined)
+
+     1.19%     0.00%  perf_target  [unknown]             [.] 0x40f0486000000000
+            |
+            ---0x40f0486000000000
+               heavy_compute
+
+     1.11%     0.00%  perf_target  [unknown]             [.] 0x40b3380000000000
+            |
+            ---0x40b3380000000000
+               log@plt
+
+     1.05%     0.00%  perf_target  [unknown]             [.] 0x40e770c000000000
+            |
+            ---0x40e770c000000000
+               heavy_compute
+
+     0.99%     0.00%  perf_target  [unknown]             [.] 0x40f68d1000000000
+            |
+            ---0x40f68d1000000000
+               __log_finite@GLIBC_2.15@plt
+
+     0.92%     0.00%  perf_target  [unknown]             [.] 0x40e39ec000000000
+            |
+            ---0x40e39ec000000000
+               heavy_compute
+
+     0.84%     0.84%  perf_target  [kernel.kallsyms]     [k] __pte_offset_map
+            |
+            ---0x300000002
+               main
+               asm_exc_page_fault
+               exc_page_fault
+               do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               do_anonymous_page
+               pte_offset_map_lock
+               __pte_offset_map
+
+     0.84%     0.00%  perf_target  [kernel.kallsyms]     [.] pte_offset_map_lock
+            |
+            ---pte_offset_map_lock
+               __pte_offset_map
+
+     0.78%     0.00%  perf_target  [kernel.kallsyms]     [.] entry_SYSCALL_64_after_hwframe
+            |
+            ---entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+               x64_sys_call
+
+     0.78%     0.00%  perf_target  [kernel.kallsyms]     [.] do_syscall_64
+            |
+            ---do_syscall_64
+               x64_sys_call
+
+     0.78%     0.00%  perf_target  [kernel.kallsyms]     [.] x64_sys_call
+            |
+            ---x64_sys_call
+
+     0.75%     0.75%  perf_target  [kernel.kallsyms]     [k] sync_regs
+            |
+            ---0x300000002
+               main
+               sync_regs
+
+     0.67%     0.67%  perf_target  [kernel.kallsyms]     [k] __rmqueue_pcplist
+            |
+            ---0x300000002
+               main
+               asm_exc_page_fault
+               exc_page_fault
+               do_user_addr_fault
+               handle_mm_fault
+               __handle_mm_fault
+               handle_pte_fault
+               do_anonymous_page
+               alloc_anon_folio
+               vma_alloc_folio_noprof
+               alloc_pages_mpol
+               __alloc_frozen_pages_noprof
+               get_page_from_freelist
+               rmqueue.isra.0
+               __rmqueue_pcplist
+
+     0.67%     0.00%  perf_target  [kernel.kallsyms]     [.] alloc_anon_folio
+            |
+            ---alloc_anon_folio
+               vma_alloc_folio_noprof
+               alloc_pages_mpol
+               __alloc_frozen_pages_noprof
+               get_page_from_freelist
+               rmqueue.isra.0
+               __rmqueue_pcplist
+
+     0.67%     0.00%  perf_target  [kernel.kallsyms]     [.] vma_alloc_folio_noprof
+            |
+            ---vma_alloc_folio_noprof
+               alloc_pages_mpol
+               __alloc_frozen_pages_noprof
+               get_page_from_freelist
+               rmqueue.isra.0
+               __rmqueue_pcplist
+
+     0.67%     0.00%  perf_target  [kernel.kallsyms]     [.] alloc_pages_mpol
+            |
+            ---alloc_pages_mpol
+               __alloc_frozen_pages_noprof
+               get_page_from_freelist
+               rmqueue.isra.0
+               __rmqueue_pcplist
+
+     0.67%     0.00%  perf_target  [kernel.kallsyms]     [.] __alloc_frozen_pages_noprof
+            |
+            ---__alloc_frozen_pages_noprof
+               get_page_from_freelist
+               rmqueue.isra.0
+               __rmqueue_pcplist
+
+     0.67%     0.00%  perf_target  [kernel.kallsyms]     [.] get_page_from_freelist
+            |
+            ---get_page_from_freelist
+               rmqueue.isra.0
+               __rmqueue_pcplist
+
+     0.67%     0.00%  perf_target  [kernel.kallsyms]     [.] rmqueue.isra.0
+            |
+            ---rmqueue.isra.0
+               __rmqueue_pcplist
+
+     0.58%     0.58%  perf_target  libm.so.6             [.] __exp_finite@GLIBC_2.15
+            |
+            ---_dl_start_user
+               _dl_start
+               _dl_start_final (inlined)
+               _dl_sysdep_start
+               dl_main
+               __ieee754_exp_ifunc (inlined)
+               ieee754_exp_ifunc_selector (inlined)
+
+     0.58%     0.00%  perf_target  libm.so.6             [.] __ieee754_exp_ifunc (inlined)
+            |
+            ---__ieee754_exp_ifunc (inlined)
+               ieee754_exp_ifunc_selector (inlined)
+
+     0.58%     0.00%  perf_target  libm.so.6             [.] ieee754_exp_ifunc_selector (inlined)
+            |
+            ---ieee754_exp_ifunc_selector (inlined)
+
+     0.46%     0.46%  perf_target  [kernel.kallsyms]     [k] inode_permission
+     0.46%     0.00%  perf_target  ld-linux-x86-64.so.2  [.] rtld_timer_accum (inlined)
+     0.46%     0.00%  perf_target  ld-linux-x86-64.so.2  [.] rtld_timer_stop (inlined)
+     0.46%     0.00%  perf_target  ld-linux-x86-64.so.2  [.] _dl_map_object_deps
+     0.46%     0.00%  perf_target  ld-linux-x86-64.so.2  [.] _dl_catch_exception
+     0.46%     0.00%  perf_target  ld-linux-x86-64.so.2  [.] set_catch (inlined)
+     0.46%     0.00%  perf_target  ld-linux-x86-64.so.2  [.] openaux
+     0.46%     0.00%  perf_target  ld-linux-x86-64.so.2  [.] _dl_map_object
+     0.46%     0.00%  perf_target  ld-linux-x86-64.so.2  [.] open_verify.constprop.0
+     0.46%     0.00%  perf_target  ld-linux-x86-64.so.2  [.] __open64_nocancel (inlined)
+     0.46%     0.00%  perf_target  [kernel.kallsyms]     [.] __x64_sys_openat
+     0.46%     0.00%  perf_target  [kernel.kallsyms]     [.] do_sys_openat2
+     0.46%     0.00%  perf_target  [kernel.kallsyms]     [.] do_file_open
+     0.46%     0.00%  perf_target  [kernel.kallsyms]     [.] path_openat
+     0.46%     0.00%  perf_target  [kernel.kallsyms]     [.] do_open
+     0.46%     0.00%  perf_target  [kernel.kallsyms]     [.] may_open
+     0.46%     0.00%  perf_target  [kernel.kallsyms]     [.] ovl_permission
+     0.32%     0.00%  perf_target  ld-linux-x86-64.so.2  [.] _dl_new_object
+     0.32%     0.00%  perf_target  [unknown]             [k] 0x00007cca1916703b
+     0.32%     0.00%  perf_target  [kernel.kallsyms]     [.] __x64_sys_execve
+     0.32%     0.00%  perf_target  [kernel.kallsyms]     [.] do_execveat_common.isra.0
+     0.32%     0.00%  perf_target  [kernel.kallsyms]     [.] bprm_execve
+     0.32%     0.00%  perf_target  [kernel.kallsyms]     [.] bprm_execve.part.0
+     0.32%     0.00%  perf_target  [kernel.kallsyms]     [.] exec_binprm
+     0.32%     0.00%  perf_target  [kernel.kallsyms]     [.] load_elf_binary
+     0.16%     0.16%  perf_target  [kernel.kallsyms]     [k] mas_prev_slot
+     0.16%     0.16%  perf_target  [kernel.kallsyms]     [k] __perf_addr_filters_adjust
+     0.16%     0.00%  perf_target  [kernel.kallsyms]     [.] elf_load
+     0.16%     0.00%  perf_target  [kernel.kallsyms]     [.] vm_munmap
+     0.16%     0.00%  perf_target  [kernel.kallsyms]     [.] __vm_munmap
+     0.16%     0.00%  perf_target  [kernel.kallsyms]     [.] arch_setup_additional_pages
+     0.16%     0.00%  perf_target  [kernel.kallsyms]     [.] do_vmi_munmap
+     0.16%     0.00%  perf_target  [kernel.kallsyms]     [.] map_vdso
+     0.16%     0.00%  perf_target  [kernel.kallsyms]     [.] _install_special_mapping
+     0.16%     0.00%  perf_target  [kernel.kallsyms]     [.] do_vmi_align_munmap
+     0.16%     0.00%  perf_target  [kernel.kallsyms]     [.] perf_event_mmap
+     0.16%     0.00%  perf_target  [kernel.kallsyms]     [.] vms_gather_munmap_vmas
+     0.16%     0.00%  perf_target  [kernel.kallsyms]     [.] mas_prev_range
+     0.16%     0.00%  perf_target  [kernel.kallsyms]     [.] perf_iterate_ctx
+
+
+#
+# (Cannot load tips.txt file, please install perf!)
+#
