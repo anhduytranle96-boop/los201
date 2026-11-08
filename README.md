@@ -22,25 +22,3 @@ Repository cá nhân tổng hợp toàn bộ bài thực hành Lab và đồ án
 
 ---
 
-## 🚀 Execution & Verification (LAB-03)
-
-### 1. GDB Remote Debugging
-\`\`\`bash
-arm-linux-gnueabihf-gcc -g -O0 -static -march=armv7-a -mfpu=neon-vfpv3 -mfloat-abi=hard -o buggy_app buggy_app.c
-qemu-arm -g 1234 ./buggy_app &
-gdb-multiarch buggy_app -ex "target remote localhost:1234"
-\`\`\`
-
-### 2. System Call Tracing & CPU Hotspot Profiling
-\`\`\`bash
-gcc -g -O1 -o perf_target perf_target.c -lm
-strace -c -o logs/strace_summary.txt ./perf_target
-sudo perf record -g -o logs/perf.data ./perf_target
-sudo perf report -i logs/perf.data --stdio > logs/perf_report.txt
-\`\`\`
-
-### 3. Real-Time Latency Measurement
-\`\`\`bash
-sudo cyclictest --mlockall --threads=4 --priority=80 --interval=1000 --distance=500 --loops=10000 --histogram=200 --histfile=logs/hist_standard.txt
-gnuplot logs/plot_latency.gnuplot
-\`\`\`
